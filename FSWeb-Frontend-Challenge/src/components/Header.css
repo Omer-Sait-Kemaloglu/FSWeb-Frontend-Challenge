@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro h1 {
+    margin: 0 0 10px;
+  }
+  
+  .intro p {
+    margin: 0 0 20px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077b5; /* Default LinkedIn color */
+    font-weight: bold;
+  }
+  
+  .social-icons a:nth-child(1) {
+    color: #333; /* GitHub color */
+  }
+  
