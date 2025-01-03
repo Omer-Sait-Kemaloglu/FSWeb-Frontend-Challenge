@@ -52,18 +52,29 @@
   margin-bottom: 20px; /* Alt boşluk */
 }
 
-.social-icons {
+.social-icons .button {
   display: flex;
-  gap: 10px;
-}
-
-.button {
+  align-items: center;
+  gap: 10px; /* İkon ve metin arasındaki boşluk */
   padding: 10px 20px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
 }
+
+.social-icons .icon {
+  font-size: 20px; /* İkon boyutu */
+}
+
+.github {
+  background-color: #333; /* GitHub butonu rengi */
+}
+
+.linkedin {
+  background-color: #0077b5; /* LinkedIn butonu rengi */
+}
+
 
 .github {
   background-color: #333; /* GitHub butonu rengi */

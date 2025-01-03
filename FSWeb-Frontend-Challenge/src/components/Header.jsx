@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'; // İkonları içe aktarın
 import './Header.css';
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="button github"
             >
-              GitHub
+              <FaGithub className="icon" /> GitHub
             </a>
             <a
               href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin"
@@ -24,17 +25,13 @@ const Header = () => {
               rel="noopener noreferrer"
               className="button linkedin"
             >
-              LinkedIn
+              <FaLinkedin className="icon" /> LinkedIn
             </a>
           </div>
         </div>
       </div>
       <div className="right-side">
-        <img
-          src="https://via.placeholder.com/100"
-          alt="Profile"
-          className="profile-image"
-        />
+        <img src="https://via.placeholder.com/100" alt="Profile" className="profile-image" />
         <div className="overlay-text"></div>
       </div>
     </header>
