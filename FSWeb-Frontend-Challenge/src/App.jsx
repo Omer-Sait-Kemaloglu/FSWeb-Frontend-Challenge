@@ -1,7 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import './components/Header.css'
+import './components/Profile.css';
+import './components/Skills.css';
+import './components/Projects.css';
+import './components/Contact.css';
 
 // Header bileşenini import ediyoruz
 import Header from './components/Header'

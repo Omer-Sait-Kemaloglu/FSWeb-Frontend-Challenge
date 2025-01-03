@@ -1,50 +1,91 @@
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .intro {
-    text-align: center;
-  }
-  
-  .intro h1 {
-    margin: 0 0 10px;
-  }
-  
-  .intro p {
-    margin: 0 0 20px;
-  }
-  
-  .profile-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-  }
-  
-  .social-icons a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #0077b5; /* Default LinkedIn color */
-    font-weight: bold;
-  }
-  
-  .social-icons a:nth-child(1) {
-    color: #333; /* GitHub color */
-  }
-  
+.header {
+  display: flex;
+  width: 1440px;
+  height: 671px;
+  gap: 0px;
+  opacity: 1;
+}
+
+.left-side {
+  flex: 1;
+  background-color: #4731d3; /* Mavi renk tonu */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.right-side {
+  flex: 1;
+  background-color: #cbf281; /* Yeşil renk tonu */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute; /* Konumlandırmayı kesinleştirmek için */
+  width: 960px; /* Genişlik */
+  height: 72px; /* Yükseklik */
+  top: 37px; /* Üstten uzaklık */
+  left: 239px; /* Soldan uzaklık */
+  gap: 0px; /* Boşluk yok */
+  font-size: 24px; /* Yazı boyutu */
+  font-weight: bold; /* Kalın yazı */
+  text-align: left; /* Yazıyı sola yasla */
+  color: #CBF281 /* Yazı rengi */
+}
+
+.intro h1 {
+  font-size: 36px; /* Başlık yazı boyutu */
+  margin-bottom: 10px; /* Alt boşluk */
+  color: #CBF281; /* Yazı rengi */
+}
+
+
+.intro p {
+  font-size: 18px; /* Paragraf yazı boyutu */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.github {
+  background-color: #333; /* GitHub butonu rengi */
+}
+
+.linkedin {
+  background-color: #0077b5; /* LinkedIn butonu rengi */
+}
+
+.profile-image {
+  width: 350px; /* Profil resmi genişliği */
+  height: 375.89px; /* Profil resmi yüksekliği */
+  gap: 0px;
+  border-radius: 18px 0px 0px 0px; /* Yuvarlak kenar */
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #000000;
+}
