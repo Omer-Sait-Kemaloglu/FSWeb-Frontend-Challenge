@@ -1,45 +1,51 @@
 .projects {
-    padding: 20px;
-    background-color: #CBF281; /* Yeşil arka plan rengi */
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .projects h3 {
-    color: #4731D3;
-    margin-bottom: 20px;
-  }
-  
-  .project {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project h4 {
-    color: #6a1b9a; /* Başlık rengi */
-    margin-bottom: 10px;
-  }
-  
-  .project p {
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .project button {
-    background-color: #6a1b9a;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-  }
-  
-  .project button:hover {
-    background-color: #5b1480; /* Hover rengi */
-  }
-  
+  width: 1500px; /* Arka plan genişliği */
+  height: 999px; /* Arka plan yüksekliği */
+  padding: 20px;
+  background-color: #CBF281; /* Yeşil arka plan rengi */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Konumlandırma için relative yapıldı */
+}
+
+.projects h3 {
+  color: #4731D3;
+  margin-bottom: 20px;
+  font-size: 36px; /* Yazı boyutunu büyüttük */
+}
+
+.project {
+  width: 960px; /* Proje kutusunun genişliği */
+  height: 360px; /* Proje kutusunun yüksekliği */
+  margin: 20px auto; /* Ortalanmış şekilde */
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px 0px 0px 0px; /* Köşe yuvarlama */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Projelerin görünür olmasını sağlar */
+}
+
+.project h4 {
+  color: #6a1b9a; /* Başlık rengi */
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.project button {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.project button:hover {
+  background-color: #5b1480; /* Hover rengi */
+}

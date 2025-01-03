@@ -8,12 +8,18 @@ const Projects = () => {
       <div className="project">
         <h4>Workintech</h4>
         <p>A platform for managing remote work.</p>
+        <div className="project-image">
+          <img src="path_to_workintech_image.jpg" alt="Workintech" />
+        </div>
         <button>View Site</button>
         <button>GitHub</button>
       </div>
       <div className="project">
         <h4>Journey</h4>
         <p>A travel planning application.</p>
+        <div className="project-image">
+          <img src="path_to_journey_image.jpg" alt="Journey" />
+        </div>
         <button>View Site</button>
         <button>GitHub</button>
       </div>

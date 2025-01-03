@@ -5,7 +5,6 @@ import profileImage from '../assets/javascript.png'; // Profil resmi
 const Profile = () => {
   return (
     <section className="profile">
-      <h2 className="profile-title">Profile</h2> {/* "Profile" başlığı eklendi */}
       <div className="basic-info">
         <h3>Basic Information</h3>
         <p><strong>Name:</strong> Ömer Sait Kemaloğlu</p>
