@@ -19,12 +19,14 @@
 }
 
 .right-side {
-  flex: 1;
-  background-color: #cbf281; /* Yeşil renk tonu */
+  width: 432px; /* Genişlik */
+  height: 671px; /* Yükseklik */
+  background-color: #CBF281; /* Yeşil renk tonu */
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: relative; /* Konumlandırma için relative */
+  border-radius: 0px 12px 12px 0px; /* Köşe yuvarlama */
 }
 
 .logo {

@@ -9,7 +9,7 @@ const Projects = () => {
         <h4>Workintech</h4>
         <p>A platform for managing remote work.</p>
         <div className="project-image">
-          <img src="path_to_workintech_image.jpg" alt="Workintech" />
+          <img src="https://img.icons8.com/?size=50&id=8808&format=png" alt="Workintech" />
         </div>
         <button>View Site</button>
         <button>GitHub</button>
@@ -18,7 +18,7 @@ const Projects = () => {
         <h4>Journey</h4>
         <p>A travel planning application.</p>
         <div className="project-image">
-          <img src="path_to_journey_image.jpg" alt="Journey" />
+          <img src="https://img.icons8.com/?size=50&id=8808&format=png" alt="Journey" />
         </div>
         <button>View Site</button>
         <button>GitHub</button>

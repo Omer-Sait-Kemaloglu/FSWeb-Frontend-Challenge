@@ -31,7 +31,7 @@ const Header = () => {
         </div>
       </div>
       <div className="right-side">
-        <img src="https://via.placeholder.com/100" alt="Profile" className="profile-image" />
+        <img src="https://img.icons8.com/?size=50&id=8808&format=png" alt="Profile" className="profile-image" />
         <div className="overlay-text"></div>
       </div>
     </header>
